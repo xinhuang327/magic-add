@@ -1,26 +1,26 @@
 {
-	"name": "magic-add",
-	"version": "1.0.1",
-	"description": "a test npm publish",
-	"main": "index.js",
-	"scripts": {
-		"test": "mocha --reporter nyan",
-		"cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/xinhuang327/magic-add.git"
-	},
-	"author": "Adrian Huang <xinhuang327@gmail.com> (https://github.com/xinhuang327/)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/xinhuang327/magic-add/issues"
-	},
-	"homepage": "https://github.com/xinhuang327/magic-add#readme",
-	"devDependencies": {
-		"chai": "^3.5.0",
-		"coveralls": "^2.11.16",
-		"istanbul": "^0.4.5",
-		"mocha": "^3.2.0"
-	}
+  "name": "magic-add",
+  "version": "1.0.2",
+  "description": "a test npm publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinhuang327/magic-add.git"
+  },
+  "author": "Adrian Huang <xinhuang327@gmail.com> (https://github.com/xinhuang327/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinhuang327/magic-add/issues"
+  },
+  "homepage": "https://github.com/xinhuang327/magic-add#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.16",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
