@@ -1,17 +1,17 @@
-Magic Add 
-[![Build Status](https://travis-ci.org/xinhuang327/magic-add.svg?branch=master)](https://travis-ci.org/xinhuang327/magic-add)
-[![Coverage Status](https://coveralls.io/repos/github/xinhuang327/magic-add/badge.svg)](https://coveralls.io/github/xinhuang327/magic-add)
+# Magic Add 
+
+[![Build Status](https://travis-ci.org/xinhuang327/magic-add.svg?branch=master)](https://travis-ci.org/xinhuang327/magic-add)[![Coverage Status](https://coveralls.io/repos/github/xinhuang327/magic-add/badge.svg)](https://coveralls.io/github/xinhuang327/magic-add)
 =========
 
 Perform a magical add operation
 
 ## Installation
 
-  `npm install @adrianhuang/magic-add`
+  `npm install magic-add`
 
 ## Usage
 
-    var magicAdd = require('@adrianhuang/magic-add');
+    var magicAdd = require('magic-add');
 
     var three = magicAdd(1, 2);
   
