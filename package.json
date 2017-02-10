@@ -1,0 +1,23 @@
+{
+	"name": "magic-add",
+	"version": "1.0.0",
+	"description": "a test npm publish",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter nyan"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xinhuang327/magic-add.git"
+	},
+	"author": "Adrian Huang <xinhuang327@gmail.com> (https://github.com/xinhuang327/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xinhuang327/magic-add/issues"
+	},
+	"homepage": "https://github.com/xinhuang327/magic-add#readme",
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"mocha": "^3.2.0"
+	}
+}
