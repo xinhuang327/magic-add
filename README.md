@@ -13,7 +13,6 @@ Perform a magical add operation
 
     var three = magicAdd(1, 2);
   
-  
   Output should be 3
 
 
