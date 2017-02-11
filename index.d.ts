@@ -4,5 +4,9 @@
  * @param {number} numberB
  * @return {number}
  */
-declare function magicAdd(numberA: number, numberB: number): number;
-export = magicAdd;
+export declare function magicAdd(numberA: number, numberB: number): number;
+export interface People {
+    name: string;
+    age: number;
+}
+export declare function magicAddPeople(a: People, b: People): People;

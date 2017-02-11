@@ -5,7 +5,18 @@
  * @param {number} numberB
  * @return {number}
  */
-function magicAdd(numberA: number, numberB: number): number {
+export function magicAdd(numberA: number, numberB: number): number {
 	return numberA + numberB
 }
-export = magicAdd
+
+export interface People {
+	name: string
+	age: number
+}
+
+export function magicAddPeople(a: People, b: People): People {
+	return {
+		name: a.name,
+		age: a.age + b.age
+	}
+}

@@ -8,4 +8,11 @@
 function magicAdd(numberA, numberB) {
     return numberA + numberB;
 }
-module.exports = magicAdd;
+exports.magicAdd = magicAdd;
+function magicAddPeople(a, b) {
+    return {
+        name: a.name,
+        age: a.age + b.age
+    };
+}
+exports.magicAddPeople = magicAddPeople;

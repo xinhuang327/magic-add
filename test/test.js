@@ -5,12 +5,14 @@ var magicAdd = require('../index');
 
 describe('#magicAdd', function () {
 	it('magicAdd 1 and 2 should return 3 ', function () {
-		var result = magicAdd(1, 2);
+		var result = magicAdd.magicAdd(1, 2);
 		expect(result).to.equal(3);
 	});
+})
 
-	it('magicAdd 2 and 1 should return 3 ', function () {
-		var result = magicAdd(2, 1);
-		expect(result).to.equal(3);
+describe('#magicAddPeople', function () {
+	it('magicAddPeople 1 and 2 should return 3 ', function () {
+		var result = magicAdd.magicAddPeople({ name: "j", age: 1 }, { name: "k", age: 2 });
+		expect(result.age).to.equal(3);
 	});
 })
