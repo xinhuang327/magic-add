@@ -6,6 +6,7 @@
  * @param {number} numberB
  * @return {number}
  */
-module.exports = function (numberA, numberB) {
+function magicAdd(numberA, numberB) {
 	return numberA + numberB;
 };
+module.exports = magicAdd;
