@@ -1,10 +1,11 @@
 {
 	"name": "magic-add",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"description": "a test npm publish",
 	"main": "index.js",
-	"types": "index.d.ts",
+	"typings": "index.d.ts",
 	"scripts": {
+		"build": "tsc -d --outDir . src/*",
 		"test": "mocha --reporter nyan",
 		"cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
 	},
@@ -22,6 +23,7 @@
 		"chai": "^3.5.0",
 		"coveralls": "^2.11.16",
 		"istanbul": "^0.4.5",
-		"mocha": "^3.2.0"
+		"mocha": "^3.2.0",
+		"typescript": "^2.1.6"
 	}
 }
